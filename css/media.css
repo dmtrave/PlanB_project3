@@ -1,0 +1,625 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .mainTitle h1 {
+        font-size: 68px;
+    }
+    .sectionS2ContentLeft {
+        padding-right: 13px;
+
+    }
+
+    .textSlideS6 {
+        padding-top: 18px;
+        font-size: 15px;
+    }
+
+    .fp-controlArrow.fp-next {
+        right: 100px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 100px;
+
+    }
+
+    .contentS7LeftBox .titleS7LeftBox {
+        position: absolute;
+        right: -50px;
+        top: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .contentS7LeftBox .subTitleS7LeftBox {
+        position: absolute;
+        right: -34px;
+        top: 48px;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .telHeader span {
+        padding-right: 0;
+    }
+    .socialWrap ul li {
+        padding-right: 22px;
+    }
+    .rightContentHeader {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mainTitle h1 {
+        font-size: 50px;
+    }
+
+    .topMnu a span {
+        top: -66px;
+    }
+    .topMnu a {
+        font-size: 50px;
+        height: 54px;
+    }
+    .topMnu ul {
+        margin-top: 120px;
+    }
+
+    .mainTitle {
+        margin-top: 252px;
+
+    }
+    .rightContentHeader {
+        padding-top: 0;
+    }
+    /******************** S2 ***************************/
+    .sectionS2ContentLeft {
+        padding-right: 0;
+    }
+
+    .sectionS2ContentRight {
+        margin: 20px 0;
+    }
+
+    .titleSectionLeft {
+    font-size: 80px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-top: -10px;
+    text-align: center;
+    }
+    .logoContainer {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    /******************** S3 ***************************/
+    .textS3Section {
+        position: relative;
+        padding: 53px 197px 0px;
+    }
+
+    .imgGalleryS3 {
+        margin-top: 40px;
+    }
+    /******************** S5 ***************************/
+    .fp-controlArrow.fp-next {
+        right: 50px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 50px;
+
+    }
+
+    .textSlideS6 {
+        padding-top: 18px;
+        font-size: 14px;
+    }
+
+
+    .subTextSlideS6 {
+        position: relative;
+        padding-top: 16px;
+        font-size: 10px;
+        color: #7d7d7d;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+
+    .bgS7Left {
+    display: none
+    }
+
+    .formWrapperS7 {
+        padding-left: 0px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .logoContainer {
+        padding-bottom: 20px;
+
+    }
+
+    .socialWrap ul li {
+        padding-right: 10px;
+    }
+
+    .mainTitle h1 {
+        font-size: 40px;
+    }
+    .mainTitle {
+        margin-top: 222px;
+
+    }
+    .rightContentHeader {
+        padding-top: 0;
+    }
+
+    .mainArrowDown {
+        display: none;
+    }
+
+    .buttonMain {
+        margin-bottom: 10px;
+    }
+    /******************** S2 ***************************/
+    .S2 .container {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+
+    }
+
+    header {
+        left: 14px;
+        position: fixed;
+        top: 20px;
+        z-index: 1;
+        width: 100%;
+    }
+    /******************** S3 ***************************/
+    .textS3Section {
+        padding: 53px 72px 0;
+        position: relative;
+    }
+
+    /******************** S5 ***************************/
+    .fp-controlArrow.fp-next {
+        right: 20px;
+        display: none;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 20px;
+        display: none;
+
+    }
+
+    .textSlideS6 {
+        padding-top: 18px;
+        font-size: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+
+    .subTextSlideS6 {
+        font-size: 7px;
+
+    }
+
+    .logoSlide p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding-top: 24px;
+    }
+
+    .textOpacityForMenu br {
+        display: none;
+    }
+
+    .fp-slidesNav.bottom {
+        bottom: 140px;
+
+    }
+
+    #fp-nav ul li, .fp-slidesNav ul li {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: 0px 24px;
+        position: relative;
+    }
+
+    .slideYodezen {
+        background: #000;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bgS7LeftSmall {
+        text-align: center;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+    .formWrapperS7 {
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: center;
+    }
+
+    .form-group textarea {
+        display: block;
+        width: 100%;
+        border: 1px solid #959595;
+        margin-top: 5px;
+        line-height: 14.5px;
+        text-indent: 12px;
+        background-color: transparent;
+        padding-top: 10px;
+    }
+
+    .ContactsForm button {
+        border: none;
+        color: #fff;
+        line-height: 46px;
+        padding: 0 60px;
+        margin-top: 10px;
+        float: none;
+        background: #112d4e;
+    }
+
+    .sectionTitleS7 {
+        margin-top: 0px;
+        font-size: 72px;
+        font-weight: 300;
+        color: #000;
+    }
+
+    .borderFormS3 .mfp-close {
+        color: #fff;
+        right: 20%;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .mainTitle h1 {
+        font-size: 23px;
+        line-height: 1.2;
+    }
+
+    .mainTitle p {
+        font-size: 10px;
+    }
+
+    .topMnu a span {
+        top: -50px;
+    }
+
+    .topMnu a {
+        font-size: 34px;
+        height: 44px;
+    }
+
+    .topMnu ul {
+        margin-top: 90px;
+    }
+
+    .logoContainer img {
+        width: 115px;
+    }
+
+    .mainTitle {
+        margin-top: 222px;
+
+    }
+
+    .buttonMain {
+        margin-top: 6px;
+        padding: 12px 20px;
+        margin-bottom: 10px;
+    }
+
+    .mainArrowDown {
+        display: none;
+    }
+
+    .toggleMnu {
+        right: 0;
+        top: 10px;
+    }
+
+    header {
+        left: 14px;
+        position: fixed;
+        top: 20px;
+        width: 100%;
+        z-index: 1;
+    }
+    /******************** S2 ***************************/
+    .titleSectionLeft {
+        font-size: 48px;
+        font-weight: 300;
+        padding-top: 20px;
+        margin-top: -10px;
+        text-align: center;
+    }
+    /******************** S3 ***************************/
+    .textS3Section {
+        padding: 53px 20px 0;
+        position: relative;
+    }
+    /******************** S5 ***************************/
+    .fp-slidesNav.bottom {
+        bottom: 100px;
+
+    }
+
+    #fp-nav ul li, .fp-slidesNav ul li {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: 0px 10px;
+        position: relative;
+    }
+    .borderFormS3 .mfp-close {
+        color: #fff;
+        right: 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .telHeader span {
+        font-size: 11px;
+    }
+
+    .socialWrap ul li a {
+        font-size: 14px;
+    }
+
+    .rightContentHeader {
+        padding-top: 0;
+    }
+
+    .logoContainer img {
+        width: 100px;
+    }
+
+    .mainTitle {
+        margin-top: 190px;
+
+    }
+
+    .mainTitle h1 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .mainTitle p {
+        font-size: 9px;
+    }
+
+    .mainArrowDown {
+        display: none;
+    }
+
+    .toggleMnu {
+        top: 10px;
+
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media (min-width : 1200px) and (max-width : 1300px) {
+
+    header {
+        position: fixed;
+        top: 20px;
+        left: 43px;
+        z-index: 1;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1370px) and (max-width : 1440px) {
+
+    .sliderTabs ul {
+        margin-top: 174px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) and (max-width : 1300px) {
+
+    .sliderTabs ul {
+        margin-top: 60px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1100px) and (max-width : 1200px) {
+
+    .sliderTabs ul {
+        margin-top: 202px;
+    }
+
+    .textS3Section {
+        padding: 135px 69px 0;
+        position: relative;
+    }
+
+    .sliderTab1 span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab2  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab3  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+
+@media (min-width : 1000px) and (max-width : 1100px) {
+
+    .sliderTabs ul {
+        margin-top: 127px;
+    }
+
+    .textS3Section {
+        padding: 135px 78px 0;
+        position: relative;
+    }
+
+    .sliderTab1 span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab2  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab3  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+
+@media (min-width : 992px) and (max-width : 1100px) {
+
+    .sliderTabs ul {
+        margin-top: 96px;
+    }
+
+    .textS3Section {
+        padding: 127px 71px 0;
+        position: relative;
+    }
+
+    .sliderTab1 span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab2  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .sliderTab3  span {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+@media (min-width : 1441px) and (max-width : 2000px) {
+
+    .borderFormS3 .mfp-close {
+        color: #fff;
+        right: 38%;
+    }
+
+}
+
+@media (min-width : 1441px) and (max-width : 2000px) {
+
+    .sliderTab1 .hoverNavTab {
+        background: transparent none repeat scroll 0 0;
+        padding-bottom: 138px;
+        padding-top: 138px;
+    }
+    .sliderTab2 .hoverNavTab {
+        background: transparent none repeat scroll 0 0;
+        padding-bottom: 138px;
+        padding-top: 138px;
+    }
+    .sliderTab3 .hoverNavTab {
+        background: transparent none repeat scroll 0 0;
+        padding-bottom: 138px;
+        padding-top: 138px;
+    }
+
+    .textS3Section {
+        line-height: 1.714;
+        padding: 136px 242px 0;
+        position: relative;
+    }
+    .sliderTabs ul {
+        margin-top: 318px;
+    }
+
+    .fp-controlArrow.fp-next {
+        background-image: url("../img/reviews/rightArroow.png");
+        border-color: transparent;
+        border-width: 0;
+        height: 45px;
+        right: 400px;
+        width: 21px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        background-image: url("../img/reviews/rightArroow.png");
+        border-color: transparent;
+        border-width: 0;
+        height: 45px;
+        right: 400px;
+        width: 21px;
+    }
+
+    .mainArrowDown {
+        position: relative;
+        text-align: center;
+        margin-top: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
