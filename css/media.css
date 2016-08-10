@@ -3,7 +3,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .mainTitle h1 {
-        font-size: 68px;
+        font-size: 60px;
     }
     .sectionS2ContentLeft {
         padding-right: 13px;
@@ -55,7 +55,7 @@
     }
 
     .mainTitle h1 {
-        font-size: 50px;
+        font-size: 44px;
     }
 
     .topMnu a span {
@@ -298,8 +298,9 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
     .mainTitle h1 {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 1.2;
     }
 
@@ -383,6 +384,22 @@
     }
 }
 
+@media only screen and (max-width : 400px) {
+    .mainTitle h1 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .mainTitle {
+        margin-top: 190px;
+        padding-left: 14px;
+
+    }
+
+    .mainSubBtn {
+        padding-left: 14px;
+    }
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
     .telHeader span {
@@ -403,12 +420,22 @@
 
     .mainTitle {
         margin-top: 190px;
+        padding-left: 14px;
 
     }
 
     .mainTitle h1 {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 1.2;
+    }
+    .mainSubBtn {
+        padding-left: 14px;
+    }
+
+    .buttonMain {
+        margin-top: 6px;
+        padding: 10px 10px;
+        margin-bottom: 10px;
     }
 
     .mainTitle p {
