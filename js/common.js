@@ -1,5 +1,30 @@
 $(document).ready(function() {
 
+
+    $('.navtab2S3,.navtab3S3').hide();
+
+
+    $('a.tab1').on('click', function(e){
+        e.preventDefault();
+        $('.sectionS3ContentLeft > div').hide()
+            .eq(0).show();
+    });
+
+    $('a.tab2').on('click', function(e){
+        e.preventDefault();
+        $('.sectionS3ContentLeft > div').hide()
+            .eq(1).show();
+    });
+
+    $('a.tab3').on('click', function(e){
+        e.preventDefault();
+        $('.sectionS3ContentLeft > div').hide()
+            .eq(2).show();
+    });
+
+
+
+
     $('#fullpage').fullpage(
         {
             menu: 'menu',
@@ -28,6 +53,15 @@ $(document).ready(function() {
                     $(".S2SmallImg").animated("fadeInRight", "fadeOutRight");
                 }
 
+                if(index == 5){
+                    $('#number1').animateNumber({ number: 1100 });
+                    $('#number2').animateNumber({ number: 25 });
+                    $('#number3').animateNumber({ number: 35 });
+                    $('#number4').animateNumber({ number: 44 });
+                    $('#number5').animateNumber({ number: 97 });
+                    $('#number6').animateNumber({ number: 5 });
+                }
+
                 $('.popupYoutube').magnificPopup({
                     disableOn: 700,
                     type: 'iframe',
@@ -44,8 +78,7 @@ $(document).ready(function() {
                         preloader: false,
                         focus: '#name',
 
-                        // When elemened is focused, some mobile browsers in some cases zoom in
-                        // It looks not nice, so we disable it:
+
                         callbacks: {
                             beforeOpen: function() {
                                 if($(window).width() < 700) {
@@ -61,40 +94,6 @@ $(document).ready(function() {
             }
 
         });
-
-
-    $('.bxslider').bxSlider(
-        {
-            captions: true,
-            controls: false,
-            auto: true,
-            infiniteLoop: true,
-            useCSS: false
-
-        });
-
-
-    $('.navtab2S3,.navtab3S3').hide();
-
-
-    $('a.tab1').on('click', function(e){
-        e.preventDefault();
-        $('.sectionS3ContentLeft > div').hide()
-            .eq(0).show();
-    });
-
-    $('a.tab2').on('click', function(e){
-        e.preventDefault();
-        $('.sectionS3ContentLeft > div').hide()
-            .eq(1).show();
-    });
-
-    $('a.tab3').on('click', function(e){
-        e.preventDefault();
-        $('.sectionS3ContentLeft > div').hide()
-            .eq(2).show();
-    });
-
 
 
     $(".toggleMnu").click(function() {
@@ -118,15 +117,19 @@ $(document).ready(function() {
             $(".topMnu li a").addClass("fadeInUp animated");
         };
     });
+    $('.bxslider').bxSlider(
+        {
+            captions: true,
+            controls: false,
+            auto: true,
+            infiniteLoop: true,
+            useCSS: false
+
+        });
+
 
 
 });
 
-$(window).load(function() {
-
-    $(".loader_inner").fadeOut();
-    $(".loader").delay(400).fadeOut("slow");
-
-});
 
 
