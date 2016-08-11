@@ -978,4 +978,44 @@ figure.effect-sarah:hover p {
 .mfp-bg {
   opacity: 0.9; }
 
+/************************** Thx  ************************* */
+.MainThx {
+  background: #000000;
+  position: relative; }
+
+.ThxBox {
+  margin: 0 auto;
+  margin-top: 224px;
+  margin-bottom: 170px;
+  position: relative;
+  width: 632px;
+  height: 311px;
+  border: 1px solid #424242;
+  text-align: center;
+  padding: 43px 0; }
+  .ThxBox h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .ThxBox p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7d7d7d;
+    letter-spacing: 0.5px; }
+
+.BtnSThx {
+  border: none;
+  color: #fff;
+  line-height: 46px;
+  padding: 0 60px;
+  margin-top: 39px;
+  background: #112d4e; }
+
+.mobTextDescr {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px; }
+
 /*# sourceMappingURL=main.css.map */
