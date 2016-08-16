@@ -660,7 +660,7 @@
     }
 
     .fp-controlArrow.fp-prev {
-        background-image: url("../img/reviews/rightArroow.png");
+        background-image: url("../img/reviews/leftArroow.png");
         border-color: transparent;
         border-width: 0;
         height: 45px;

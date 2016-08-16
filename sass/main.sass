@@ -252,16 +252,17 @@ header
 	img
 		padding-right: 5px
 		position: relative
-		-webkit-animation: 1.5s mymove infinite
-		-webkit-animation-duration: 1s
-		animation: 1.5s mymove infinite
-		animation-duration: 1s
-		@keyframes mymove
+
+		/*-webkit-animation: 1.5s mymove infinite
+		/*-webkit-animation-duration: 1s
+		/*animation: 1.5s mymove infinite
+		/*animation-duration: 1s
+		/*@keyframes mymove
 			from
 				left: 0
 			to
 				left: 3px
-		@-webkit-keyframes mymove
+		/*@-webkit-keyframes mymove
 			from
 				left: 0
 			to
@@ -300,7 +301,7 @@ header
 	position: absolute
 	right: 18px
 	bottom: -60px
-	animation-duration: 1.5s
+	animation-duration: 3s
 .S2BigImg
 	animation-duration: 3s
 .sectionS2ContentRight
@@ -762,11 +763,22 @@ figure.effect-sarah:hover p
 	font-size: 21px
 	line-height: 1
 
-
 /*********************** S6 ************************/
 
 .slideYodezen
 	background: url("../img/reviews/bgYodezen.jpg")
+	-webkit-background-size: cover
+	background-size: cover
+	background-repeat: no-repeat
+
+.slideHub40
+	background: url("../img/reviews/bgHub04.jpg")
+	-webkit-background-size: cover
+	background-size: cover
+	background-repeat: no-repeat
+
+.slideLifeStyle
+	background: url("../img/reviews/bgLifeStyle.jpg")
 	-webkit-background-size: cover
 	background-size: cover
 	background-repeat: no-repeat
@@ -1069,3 +1081,27 @@ figure.effect-sarah:hover p
 	text-align: center
 	font-size: 10px
 	margin-top: 5px
+
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
